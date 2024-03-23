@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    font-family: Outfit, sans-serif;
+    font-size: 15px; 
+    align-items: center;
+        
+    background-color: hsl(212, 45%, 89%);
+    height: 100%;
+    display: flexbox;
+} 
+.container{
+    max-width: 350px;
+    margin: 0 auto;
+} 
+.card{
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 1rem;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.texto{
+    color: hsl(218, 44%, 22%);
+    padding: 22px 10px;
+    padding-bottom: 15px;
+}
+.texto p{
+    color: hsl(220, 15%, 55%);
+}
+.attribution{
+   text-align: center;
+}
